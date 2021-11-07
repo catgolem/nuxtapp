@@ -46,9 +46,3 @@ export default Vue.extend({
   }
 })
 </script>
-
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
-
-
-</style>
