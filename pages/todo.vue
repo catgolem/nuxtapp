@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-repeat bg-back-pattern bg-cover font-body">
+  <div class="bg-repeat bg-back-pattern bg-cover font-body min-h-screen">
     <div class="py-16"></div>
     
     <h1 class="flex justify-center py-4 font-black  mb-20 text-4xl text-shadow-md bg-white">
@@ -15,7 +15,7 @@
 
     <todo-item class="flex justify-center my-3 py-1 text-xl" v-for="(item, i) in getterTodos" :key="i" :name="item" :index="i"/>
 
-    <div class="p-96"></div>
+    <!-- <div class="p-96"></div> -->
   </div>
 </template>
 
